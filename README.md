@@ -13,6 +13,7 @@ The user import xml files are stored in the xml directory and the ojs commands t
 Enter in your desired ojs username/password, email, given name, family name and affiliation in the `$userToImport` array at the top of generator.php
 Enter in the parent directory of all the ojs installations in the `$directory` variable in generator.php
 Enter in the child directories that you would want to skip or directories that do not have a config.inc.php file in them into the `$skipDirectories` array.
+
 Run:
 `php generator.php`
 
