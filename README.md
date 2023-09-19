@@ -14,6 +14,6 @@ Enter in your desired ojs username/password, email, given name, family name and 
 Enter in the parent directory of all the ojs installations in the `$directory` variable in generator.php
 Enter in the child directories that you would want to skip or directories that do not have a config.inc.php file in them into the `$skipDirectories` array.
 Run:
-`php genertator.php`
+`php generator.php`
 
 You can then take the commands that it wrote in the COMMANDS.txt file and run them as you see fit. It will add a note above each command if the email address choosen already exists in the database.
